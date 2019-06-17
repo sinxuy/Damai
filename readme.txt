@@ -1,11 +1,9 @@
 需要环境：
 Google Chrome 74-75
 
-提供4个文件：
+提供2个文件：
 config.ini                # url表示抢票网址，number表示需要抢票的人数，建议设置为1
 damai.exe 		  # 主运行程序
-driver/chromedriver       # macos系统使用，将文件拷贝到chrome根目录下，并配置系统变量
-driver/chromedriver.exe   # windows系统使用，将文件拷贝到chrome根目录下，并配置系统变量
 
 环境配置：
 https://blog.csdn.net/XD_Cauthy/article/details/92685121
