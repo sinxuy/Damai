@@ -1,19 +1,19 @@
-��Ҫ������
+需要环境：
 Google Chrome 74-75
 
-�ṩ4���ļ���
-config.ini                # url��ʾ��Ʊ��ַ��number��ʾ��Ҫ��Ʊ����������������Ϊ1
-damai.exe 		  # �����г���
-driver/chromedriver       # macosϵͳʹ�ã����ļ�������chrome��Ŀ¼�£�������ϵͳ����
-driver/chromedriver.exe   # windowsϵͳʹ�ã����ļ�������chrome��Ŀ¼�£�������ϵͳ����
+提供4个文件：
+config.ini                # url表示抢票网址，number表示需要抢票的人数，建议设置为1
+damai.exe 		  # 主运行程序
+driver/chromedriver       # macos系统使用，将文件拷贝到chrome根目录下，并配置系统变量
+driver/chromedriver.exe   # windows系统使用，将文件拷贝到chrome根目录下，并配置系统变量
 
-�������ã�
-https://blog.csdn.net/qq_40604853/article/details/81388078
+环境配置：
+https://blog.csdn.net/XD_Cauthy/article/details/92685121
 
-������ʽ��
-1.��config.ini�ļ��е�url����������滻Ϊ��Ҫ��Ʊ����վ,��url = xxxxxx
-2.����damai.exe,��������
-3.��ʼΪ��������ҳ�������¼����ת��ɨ���¼������һ�Σ������Ҫ����ɾ���ļ����µ�cookies.pkl��
-4.��ʼ��Ʊ����δ��Ʊǰ��ÿ��ˢ��һ����վ����Ʊ��ʼ������ѡ��ʱ���磬Ʊ�۵͵�ѡ��
-5.�µ���Ҫ��ǰ����ռ�����Ϣ�͹�Ʊ����Ϣ������ѡ����ʾ��ǰ�Ĺ�Ʊ��
-6.��Ʊ�ɹ�����15���ӵ�ʱ����Ը����ʱ������������ʼ������ʾ����
+操作方式：
+1.将config.ini文件中的url后面的内容替换为想要抢票的网站,如url = xxxxxx
+2.运行damai.exe,允许进网
+3.初始为大麦网主页，点击登录，跳转后扫码登录（仅此一次，如果需要换号删除文件夹下的cookies.pkl）
+4.开始抢票，在未放票前，每秒刷新一次网站，放票开始，优先选择时间早，票价低的选项
+5.下单需要提前填好收件人信息和购票人信息，优先选择显示靠前的购票人
+6.买票成功后，有15分钟的时间可以付款，此时程序锁死并开始报警提示付款
