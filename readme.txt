@@ -1,14 +1,14 @@
-需要环境：
+#需要环境：
 Google Chrome 74-75
 
-提供2个文件：
+#提供2个文件：
 config.ini                # url表示抢票网址，number表示需要抢票的人数，建议设置为1
 damai.exe 		  # 主运行程序
 
-环境配置：
+#环境配置：
 https://blog.csdn.net/XD_Cauthy/article/details/92685121
 
-操作方式：
+#操作方式：
 1.将config.ini文件中的url后面的内容替换为想要抢票的网站,如url = xxxxxx
 2.运行damai.exe,允许进网
 3.初始为大麦网主页，点击登录，跳转后扫码登录（仅此一次，如果需要换号删除文件夹下的cookies.pkl）
